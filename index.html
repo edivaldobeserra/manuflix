@@ -2,86 +2,80 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
+    <title>Tela Login</title>
+    <link rel="stylesheet" href="style/login.css">
     <!--responsividade-->
     <link rel="stylesheet" href="style/responsive.css">
-    
-    <!--owl css-->
-    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
-    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
-    
-    <title>MANUFLIX</title>
 </head>
 <body>
- <header>
-     <div class="container">
-     <h2 class="logo">MANUFLIX</h2>
-     <nav>
-         <a href="3">Inicio </a> 
-         <a href="3">Séries</a> 
-         <a href="3">Filmes </a> 
-         <a href="3">Documentarios </a> 
-         
-     </nav>
+    <div class="header">
+        <div class="logo">
+          
+                
+                <h1>MANUFLIX</h1>
+            
+        </div>
     </div>
- </header>
- <main>
-     <div class="filme-principal">
-         <div class="container">
-             <h3 class="titulo">Emanuelle Beserra</h3>
-             <p class="descricao">Emanuelle Oliveira Beserra, Nascida na cidade de sorocaba, dona de uma carisma inigualavel, um sorriso encantador, a Princesa do Papai e da Mamae </p>
-             <div class="botoes">
-                <button role="button" class="botao">
-                    <i class="fas fa-play"></i>
-                    ASSISTIR AGORA
-                </button>
-                <button role="button" class="botao">
-                    <i class="fas fa-info-circle"></i>
-                    MAIS INFORMAÇÕES
-                </button>
-               </div>
-       
-             
-         </div>
-         
 
-     </div>
+    <div class="login_body">
+        <div class="login_box">
+            <h2>Entrar</h2>
+            <form>
+                <div class="input_box">
+                    <input required type="email" placeholder="Email ou numero de telefone">
+                </div>
 
+                <div class="input_box">
+                    <input required type="password" placeholder="Senha">
+                </div>
 
- </main>
+                <div>
+                    <button class="submit">
+                        <a href="filmes.html" target="_blank">
+                            ENTRAR
+                        </a>
+                    </button>
+                   
+                </div>
+            </form>
 
- <div class="carrosel-filmes">
-     <div class="owl-carousel owl-theme">
-          <div class="item">
-                  <img class="box-filme" src="./img/Avôs (1).png" alt="" srcset="">
+            <div class="support">
+                <div class="remember">
+                    <span><input type="checkbox" style="margin: 0;padding: 0;height: 13px;"></span>
+                   
+                    <span>Lembre-se de mim</span>
+                </div>
+                <div class="help">
+                    <a href="#">
+                        Precisa de ajuda?
+                    </a>
+                </div>
+                
+
+            </div>
+            <div class="login_footer">
+                <div class="login_facebook">
+                    <span><img height="20px" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" alt="facebook"></span>
+                    <span><a href="#"> Conectar com Facebook</a></span>
+
+                </div>
+                
+                <div class="sign_up">
+                    <p> Nopor aqui? <a href="#"> Assine agora.</a> </p>
+
+                </div>
+              
+                <div class="terms">
+                    <p>Esta pagina <a href="#" > Saiba mais</a></p>
+
+                </div>
+
+            </div>
+
         </div>
-     <div class="item">
-                  <img class="box-filme" src="./img/Avôs (2).png" alt="" srcset="">
-        </div>
-     <div class="item">
-                  <img class="box-filme" src="./img/Avôs (3).png" alt="" srcset="">
-         </div>
-     <div class="item">
-                  <img class="box-filme" src="./img/Avôs (4).png" alt="" srcset="">
-         </div>
-     <div class="item">
-                   <img class="box-filme" src="./img/Avôs (5).png" alt="" srcset="">
-         </div>
-         
-         <div class="item">
-                       <img class="box-filme" src="./img/Avôs.png" alt="" srcset="">
-              </div>
-        </div>
-     
-        
-     
- </div>
- <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
- <script src="js/owl/jquery.min.js"></script>
- <script src="js/owl/owl.carousel.min.js"></script>
- <script src="js/owl/setup.js"></script>
-
-</body>
+    </div>
+    
 </body>
 </html>
