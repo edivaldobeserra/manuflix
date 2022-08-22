@@ -44,7 +44,7 @@ header nav a:hover{
 /* filme principal*/
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.40),rgba(0,0,0,.40) 100%), url('https://scontent.fsod12-1.fna.fbcdn.net/v/t39.30808-6/299461582_5498888193510235_5839436278511925426_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFVfLi-yvtdPh1_BadX9MtcTWTXx-zkOWZNZNfH7OQ5ZmBSvz914lSeTS4k0gAai3tj4rxgVcaUrWPScmWdUCSc&_nc_ohc=nqxKQNpl8jIAX_FAsNb&_nc_oc=AQnsogJlLhEf0WPkIp6ZFKak_TaaqGu-scXZXuVCCuNCofY41KIuV61liLs7KPbKKnOdOm7BFB_zFGUxKuAb02M2&_nc_ht=scontent.fsod12-1.fna&oh=00_AT9fPPS_gvhSI-T7hofgQnFBLrUbzkmMlY1gPKqLxxz0aQ&oe=6301B2E5');
+    background: linear-gradient(rgba(0,0,0,.40),rgba(0,0,0,.40) 100%), url('../img/capa.png');
     height: 400px;
     background-size:cover;
     display: flex;
